@@ -123,3 +123,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.vscode/
+tests/testdir/20YYiso3nn/GIS/
+tests/testdir/20YYiso3nn/Operations/
