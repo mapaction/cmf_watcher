@@ -18,6 +18,15 @@ class TestCMFHandler(TestCase):
         """
         self.fail()
 
+	def test_wait_for_stablity(self):
+		"""
+			Need to test cases:
+			a) deleted files (no need to wait and do two hashes!)
+			b) long, slow edits.
+			c) etc
+		"""
+		self.fail()
+	
     def test_change_to_root_files(self):
         """
             Need to handle the cases
@@ -25,8 +34,8 @@ class TestCMFHandler(TestCase):
             c) multiple cmf files
             d) removal of existing event file
             e) removal of existing cmf file
-            f) cooruption of existing event file
-            g) cooruption of existing cmf file
+            f) corruption of existing event file
+            g) corruption of existing cmf file
             h) new or modified json file with is unrelated to either a cmf or event file
         """
         self.fail()
