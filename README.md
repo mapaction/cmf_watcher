@@ -35,15 +35,19 @@ crash_move_folder_watcher
 
 
 # Notes and references:
-#
-# https://pythonhosted.org/watchdog/api.html  # event-handler-classes
-# https://pypi.org/project/watchdog/
-# https://github.com/gorakhargosh/watchdog/issues/577
-# https://github.com/gorakhargosh/watchdog/issues/391
-# https://blog.magrathealabs.com/filesystem-events-monitoring-with-python-9f5329b651c3
-# https://stackoverflow.com/questions/44713742/python-trigger-file-change-events
-# 
-# GoCD client:
-# This GoCD Python client looks the most promising:
-# https://github.com/grundic/yagocd
-# https://yagocd.readthedocs.io/en/latest/readme.html#different-implementations-of-gocd-api
+
+### Using Watchdog
+
+* https://pythonhosted.org/watchdog/api.html  # event-handler-classes
+* https://pypi.org/project/watchdog/
+* https://github.com/gorakhargosh/watchdog/issues/577
+* https://github.com/gorakhargosh/watchdog/issues/391
+* https://blog.magrathealabs.com/filesystem-events-monitoring-with-python-9f5329b651c3
+* https://stackoverflow.com/questions/44713742/python-trigger-file-change-events
+ 
+### GoCD API clients:
+
+This GoCD Python client looks the most promising:
+
+* https://github.com/grundic/yagocd
+* https://yagocd.readthedocs.io/en/latest/readme.html#different-implementations-of-gocd-api
